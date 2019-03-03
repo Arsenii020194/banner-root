@@ -7,6 +7,4 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.10
 targetCompatibility = 1.10
-dependencies{
-    compile 'com.github.Arsenii020194:util-crud-parent:6e6838c1d3410d447b88740c6807f9104da98243'
-}
+
