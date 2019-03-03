@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'banner'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web:2.1.2.RELEASE')
+}

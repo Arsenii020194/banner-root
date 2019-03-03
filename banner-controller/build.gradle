@@ -1,0 +1,26 @@
+buildscript {
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.2.RELEASE")
+    }
+}
+plugins {
+    id 'war'
+}
+
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+
+jar.enabled = false
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+
+dependencies {
+    compile project(':banner-boot')
+    compile project(':banner-service')
+    compile group: 'com.h2database', name: 'h2', version: '1.4.197'
+}

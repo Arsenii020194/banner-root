@@ -1,0 +1,3 @@
+rootProject.name = 'banner-root'
+include('banner-controller', 'banner-service', 'banner-dao', 'banner-boot')
+
